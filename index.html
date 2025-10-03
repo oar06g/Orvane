@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orvane - Private Network of Influence</title>
+    <meta name="description" content="A private network of influence and exchange">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600&family=Google+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Orvane-logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- README Comment: How to customize this page -->
+    <!-- 
+    To edit this page:
+    1. COLORS: Change CSS variables in styles.css
+    2. TEXT: Replace content in the main sections below
+    3. IMAGES: Replace placeholder images with your own
+    4. ICONS: Replace Font Awesome icons or use your preferred icon set
+    -->
+
+    <!-- Animated Background -->
+    <div class="background-container">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        <div class="floating-shape shape-4"></div>
+        <div class="floating-shape shape-5"></div>
+        <div class="floating-shape shape-6"></div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" aria-label="Toggle theme">
+        <span class="theme-icon">🌙</span>
+    </button>
+
+    <div class="page-container">
+        <!-- Main Content Card -->
+        <div class="main-card">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <div class="hero-visual">
+                        <img src="Orvane-logo.jpg" alt="Orvane illustration" class="hero-image">
+                    </div>
+                    <div class="hero-text">
+                        <h1 class="hero-title">Orvane</h1>
+                        <p class="hero-tagline">A private network of influence and exchange.</p>
+                        <div class="hero-badge">Private Invitation Only</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Vision/About Section -->
+            <section class="vision">
+                <h2 class="section-title">About Orvane</h2>
+                <div class="vision-content">
+                    <p class="vision-description">
+                        Orvane is not a company or public service. It is a personal, private initiative where I share my skills, 
+                        passions, and expertise with selected individuals. In return, we create unique exchanges of value, 
+                        built on trust, creativity, and respect.
+                  </p>
+                </div>
+            </section>
+
+            <!-- Skills/Expertise Section -->
+            <section class="skills">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3 class="skill-title">Media Buying</h3>
+                        <p class="skill-description">Strategic advertising and media placement for maximum impact</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3 class="skill-title">Programming & AI Tools</h3>
+                        <p class="skill-description">Automation solutions and intelligent workflow optimization</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3 class="skill-title">Web Development</h3>
+                        <p class="skill-description">Modern, responsive websites with clean architecture</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3 class="skill-title">Creative Strategy</h3>
+                        <p class="skill-description">Innovative approaches to branding and creative direction</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3 class="skill-title">Leadership</h3>
+                        <p class="skill-description">Team guidance and strategic decision-making expertise</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3 class="skill-title">Multi-passionate</h3>
+                        <p class="skill-description">Diverse areas of interest and continuous learning</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3 class="skill-title">Content Writing</h3>
+                        <p class="skill-description">Compelling copy and engaging content creation</p>
+                    </div>
+                    
+                    <div class="skill-card skill-card-other">
+                        <h3 class="skill-title">Other Skills</h3>
+                        <p class="skill-description">Let's discover what else we can explore together</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Call to Action -->
+            <section class="cta">
+                <div class="cta-content">
+                    <h2 class="cta-title">Ready to Connect?</h2>
+                    <p class="cta-description">
+                        Reach out through the channel where you received this link.
+                    </p>
+                    <div class="cta-icon">💬</div>
+                </div>
+            </section>
+
+            <!-- Policy Links -->
+            <section class="policies">
+                <div class="policies-content">
+                    <button class="policy-link" data-modal="privacy">Privacy Policy</button>
+                    <span class="policies-separator">•</span>
+                    <button class="policy-link" data-modal="terms">Terms of Service</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="footer-text">© 2025 Orvane — Private Network of Influence</p>
+        </div>
+    </footer>
+
+    <!-- Modal Dialogs -->
+    <div id="modal-overlay" class="modal-overlay" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true">
+            <div class="modal-header">
+                <h2 class="modal-title"></h2>
+                <button class="modal-close" aria-label="Close modal">&times;</button>
+            </div>
+            <div class="modal-content"></div>
+        </div>
+    </div>
+
+    <!-- Hidden Content for Modals -->
+    <div id="privacy-content" style="display: none;">
+        <p>This page does not collect or track your data. Communication only happens through the channel where this link was shared.</p>
+        <p>Any ideas or content you share remain fully yours.</p>
+    </div>
+
+    <div id="terms-content" style="display: none;">
+        <p>Orvane is not a corporate service. All skills are personal expertise.</p>
+        <p>The exchange is based on trust and respect, not financial obligation.</p>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
